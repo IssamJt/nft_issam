@@ -1,0 +1,158 @@
+
+
+.container{
+    background-color: #0d1a2d;
+    padding-top: 2%;
+    height: 97vh;
+}
+
+
+.card{
+    width: 25vw;
+    height: 80vh;
+    background-color: #15273f;
+    padding-top: 2%;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+
+
+.cardimg{
+    background-image: url('./../../../images/image-equilibrium.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 85%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 8px;
+    position: relative;
+    background-color: red;
+
+}
+
+
+.colored{
+    width: 100%;
+    height: 100%;
+    background-color: #36ecec;
+    opacity: 0.5;
+    border-radius: 20px;
+    display: none;
+}
+
+.cardimg:hover .colored{
+    display: block;
+    cursor: pointer;
+}
+
+.cardimg svg{
+    font-size: 3rem;
+    width: 15%;
+    height: 15%;
+    margin: auto;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    display: none;
+    transition: 1s;
+}
+
+
+.cardimg:hover.cardimg svg{
+    display: block;
+}
+
+
+
+
+h2{
+    text-align: start;
+    color: white;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 5%;
+    height: 10%;
+}
+
+h2:hover{
+    color: #36ecec;
+    cursor: pointer;
+}
+
+.color{
+    font-size: 1.2rem;
+    width: 85%;
+    height: 10%;
+    margin: 0 auto;
+    text-align: start;
+    color: #7a93b2;
+}
+
+.eth{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    height: 10%;
+    margin: 0 auto;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #36ecec;
+    border-bottom: #7a93b2 0.5px solid;
+}
+
+.ethright{
+    color: #7a93b2;
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    width: 35%;
+}
+
+.ethleft{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    width: 30%;
+}
+
+svg{
+    margin: auto;
+}
+
+.creation{
+    width: 85%;
+    height: 12%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.creation p{
+    margin: 0 0 0 4%;
+    margin-top: 8%;
+    height: 50%;
+    color: #7a93b2;
+    font-weight: bolder;
+}
+
+.creation .jules{
+    color: white;
+}
+
+.creation .jules:hover{
+    color: #36ecec;
+    cursor: pointer;
+}
+
+.creationimg{
+    background-image: url('./../../../images/image-avatar.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 12%;
+    height: 55%;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin: auto 0;
+}
+

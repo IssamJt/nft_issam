@@ -1,0 +1,41 @@
+@media screen and (min-width:768px) and (max-width:1023px){
+    .container{
+        padding-top: 2%;
+        height: 97.7vh;
+    }
+
+    .card{
+        width: 50vw;
+        height: 90vh;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:767px){
+    .container{
+        padding-top: 8%;
+        height: 94.8vh;
+    }
+
+    .card{
+        width: 90vw;
+        height: 85vh;
+        padding-top: 7%;
+    }
+}
+
+
+@media screen and (min-width:375px) and (max-width:424px){
+    .container{
+        padding-top: 8%;
+        height: 95.5vh;
+    }
+
+    .card{
+        width: 95vw;
+        height: 85vh;
+        padding-top: 7%;
+    }
+    .ethleft{
+        width: 35%;
+    }
+}
